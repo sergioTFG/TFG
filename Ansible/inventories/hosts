@@ -1,0 +1,10 @@
+all:
+  children:
+    ha_wordpress:
+      children:
+        primary:
+          hosts:
+            51.138.85.20:
+        secondary:
+          hosts:
+            51.138.85.112:

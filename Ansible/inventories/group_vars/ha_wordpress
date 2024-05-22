@@ -1,0 +1,18 @@
+---
+#Host vars
+USER: hawordpress
+USER_PWD: $Hawordpress2023
+TIMEZONE: Europe/Madrid
+LOCALE: es_ES.UTF-8
+#WP DB vars
+MYSQL_WP_DATABASE: wordpress
+MYSQL_WP_USER: hawordpress@mysql-hawordpress-westeu-001
+MYSQL_WP_PASSWORD: $HaWordpre33@!
+MYSQL_WP_HOST: mysql-hawordpress-westeu-001.mysql.database.azure.com
+#WP vars
+DOMAIN: mariatec.es
+#WP CLI vars
+WP_TITLE: HA Wordpress
+WP_ADMIN_USER: hawordpress
+WP_ADMIN_PASSWORD: $Hawordpress2023
+ADMIN_MAIL: maria@mariatec.es
